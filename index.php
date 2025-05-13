@@ -12,7 +12,8 @@
 
 <body class="h-screen bg-white font-[IRANSans]">
     <?php include("header.php") ?>
-    <?php include("card.php") ?>
+    <?php include("products.php") ?>
+
 </body>
 
 

@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>محصول جدید</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="tailwind.js"></script>
+    <script src="../tailwind.js"></script>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../fonts/fontawesome/css/all.min.css">
 
 </head>
-<body class="">
+<body>
 
-    <div class="h-fit border rounded-xl border-zinc-300 p-4 shadow-sm">
+    <div class="h-fit w-[45%] mx-auto mt-20 border rounded-xl border-zinc-300 p-4 shadow-sm">
         <h2 class="text-lg font-medium ">افزورن محصول</h2>
         <form class=" rounded-lg flex flex-col " action="./addCheck.php" method="post" enctype="multipart/form-data">
             <div class="relative w-52 h-52 border border-zinc-400 mt-2 rounded-md">
